@@ -95,7 +95,7 @@ footer h2 {
 
 /* FOOTER STYLES START */
 
-/* ABOUT ME SECTION */
+/* HERO SECTION */
 .hero {
   background-image: url("../images/hero.jpg");
   background-size: cover;
@@ -108,22 +108,13 @@ footer h2 {
   background-position: 90%;
 }
 
-.empty-hero{
-  width: 35%;
-  text-align: right;
-  margin: 10.5%;
-  color: white;
-  font-size: 18px;
-  line-height: 1.2;
-}
-
 .hero-sub {
   width: 35%;
   text-align: right;
-  margin: 10.5%;
   color: white;
   font-size: 18px;
   line-height: 1.2;
+  margin: 10.5%;
 }
 
 .hero-sub h2 {
@@ -131,6 +122,12 @@ footer h2 {
   font-size: 35px;
   color: var(--main-color);
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+/* ABOUT ME SECTION */
+
+.about-text {
+  margin-top: 30px;
+
 }
 
 /* PORTFOLIO SECTION */
