@@ -97,7 +97,7 @@ footer h2 {
 
 /* HERO SECTION */
 .hero {
-  background-image: url("../assets/images/hero.jpg");
+  background-image: url("../images/Hero.jpg");
   background-size: cover;
   background-position: left;
   display: flex;
