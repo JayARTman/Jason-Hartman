@@ -103,9 +103,7 @@ footer h2 {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  align-items:flex-start;
   background-attachment: fixed;
-  background-position: 90%;
 }
 
 .hero-sub {
@@ -115,50 +113,64 @@ footer h2 {
   font-size: 18px;
   line-height: 1.2;
   margin: 10.5%;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 /* ABOUT ME SECTION */
+.main {
+  display: flexbox;
+}
 
 .about-me {
   display: flex;
-  margin: 7.5%;
+  margin: 5%;
 }
 
 .about-title {
-  width: 35%;
-  margin-left: 20px;
-  justify-content: right;
-  width: 20%; 
-  border-right: var(--font-color);
+  height: 100px;
+  width: 25%;
+  border-right: 5px solid black;
+  padding: 0px 20px;
+  text-align: right;
+  margin-right: 5px
 }
 
 .about-text {
-  flex-direction: row-reverse
-  width: 60%;
-  text-align: right;
-  margin-left: 100px;
-  margin-right: 10px;
+  width: 75%;
+  text-align: left;
+  padding: 0 0 0 20px;
+}
+
+.about-left + about-text {
+  margin-left: 2%;
 }
 /* END ABOUT ME SECTION */
 
 /* MY WORK SECTION */
 
-.my-portfolio {
-  flex-wrap: wrap;
-  align-items: flex-start;
+.work {
+  display: flex;
+  margin: 5%;
 }
 
-.my-work {
-  margin-top: 30px;
-  margin-left: 20px;
+.work-title {
+  height: 100px;
+  width: 25%;
+  border-right: 5px solid black;
+  padding: 0px 20px;
+  text-align: right;
+  margin-right: 5px
 }
 
-.portfolio {
-  margin-top: 30px;
-  margin-right: 10px;
+.about-grid {
+  width: 75%;
+  padding: 0 0 0 20px;
 }
 
+.work-title + grid {
+  margin-left: 2%;
+}
 
-/* PORTFOLIO SECTION */
+/* MY WORK SECTION END */
 
 .section-title {
   font-size: 33px;
@@ -169,16 +181,6 @@ footer h2 {
   margin: 0 auto 35px auto;
   width: 50%;
 }
-
-.section-title:after {
-  content: ""; /* This is necessary for the pseudo element to work. */ 
-  display: block; /* This will put the pseudo element on its own line. */
-  margin: 0 auto; /* This will center the border. */
-  width: 30%; /* Change this to whatever width you want. */
-  padding-top: 30px; /* This creates some space between the element and the border. */
-  border-bottom: 1px solid black; /* This creates the border. Replace black with whatever color you want. */
-}
-
 
 
 /* UTILITIES */
