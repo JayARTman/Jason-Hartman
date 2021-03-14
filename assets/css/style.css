@@ -117,12 +117,13 @@ footer h2 {
 }
 /* ABOUT ME SECTION */
 .main {
-  display: flexbox;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-me {
   display: flex;
-  margin: 5%;
+  margin-top: 5%;
 }
 
 .about-title {
@@ -161,10 +162,29 @@ footer h2 {
   margin-right: 5px
 }
 
-.about-grid {
+.grid {
   width: 75%;
+  height: 300px;
   padding: 0 0 0 20px;
+  position: relative
 }
+
+.grid img {
+  max-width: 700px;
+  max-height: 400px;
+  object-fit: scale-down;
+  border: 5px solid black;
+}
+
+.text-block {
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding: 12px;
+}
+
 
 .work-title + grid {
   margin-left: 2%;
