@@ -73,7 +73,7 @@ nav {
 nav a {
   text-decoration: none;
   padding: 5px 10px;
-  color: var(--font-color);
+  color: var(--white);
   margin-right: 10px;
   background-size: 100% 0.2em;
   font-size: 22px;
@@ -141,8 +141,9 @@ main {
   text-align: right;
   padding-right: 15px;
   border-right: 4px solid var(--black);
-  font-size: 4vw;
+  font-size: 40px;
   line-height: 1.1;
+  color: var(--black);
 }
 
 .page-section > div {
@@ -151,6 +152,7 @@ main {
 
 .page-section p {
   margin-bottom: 20px;
+  margin-left: 25%;
 }
 
 .flex-box {
@@ -182,7 +184,7 @@ main {
 }
 
 .flex:hover {
-background-color: rgba(0, 0, 0, 0.3);
+background-color: rgba(255, 255, 255, 0.3);
 }
 
 .flex div {
@@ -191,7 +193,7 @@ padding: 8px 10px;
 }
 
 .flex h4 {
-font-size: 1.6rem;
+font-size: 25px;
 }
 
 /* IMAGES */
@@ -217,7 +219,53 @@ font-size: 1.6rem;
 }
 
 
+@media screen and (max-width: 980px) {
+  header {
+    padding: 0 0 10px 0;
+    justify-content: center;
+    text-align: center;
+  }
 
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .page-section > h2,
+  .page-section > div {
+    flex: 0 0 100%;
+  }
+
+  .page-section > h2 {
+    border-right: none;
+    border-bottom: 4px solid var(--black);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 7vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flex,
+  .flex:first-child {
+    flex-basis: 100%;
+  }
+
+  .flex:first-child {
+    min-height: 150px;
+  }
+
+  .hero {
+    justify-content: center;
+    text-align: center;
+  }
 
 
 
