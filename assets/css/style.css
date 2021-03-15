@@ -142,6 +142,8 @@ main {
   max-height: 300px;
   display: flex;
   flex-wrap: wrap;
+  float: left;
+  margin-right: 15px;
 }
 
 .page-section > h2 {
@@ -160,7 +162,7 @@ main {
 
 .text {
   color: var(--black);
-  flex-wrap: wrap;
+  padding-right: 15px;
 }
 
 .flex-box {
@@ -274,6 +276,8 @@ font-size: 25px;
     justify-content: center;
     text-align: center;
   }
+
+  
 
 
 
