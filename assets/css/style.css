@@ -136,6 +136,14 @@ main {
   justify-content: space-between;
 }
 
+.page-section img {
+  border: 5px solid var(--black);
+  min-height: 300px;
+  max-height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .page-section > h2 {
   flex: 0 0 20%;
   text-align: right;
@@ -150,9 +158,9 @@ main {
   flex: 0 0 77%;
 }
 
-.page-section p {
-  margin-bottom: 20px;
-  margin-left: 25%;
+.text {
+  color: var(--black);
+  flex-wrap: wrap;
 }
 
 .flex-box {
