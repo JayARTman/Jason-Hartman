@@ -94,7 +94,7 @@ main {
 /* HERO START */
 
 .hero {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/Hero.jpg");
   background-size: cover;
   background-position: center;
   opacity: 80%;
@@ -234,7 +234,7 @@ font-size: 25px;
 /* IMAGES */
 
 .jhmedia {
-  background-image: url("../images/jhmedia.jpg");
+  background-image: url("../images/JHmedia.jpg");
 }
 
 .run-buddy {
