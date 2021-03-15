@@ -137,7 +137,7 @@ main {
 }
 
 .page-section img {
-  border: 5px solid var(--black);
+  border: 3px solid var(--black);
   min-height: 300px;
   max-height: 300px;
   display: flex;
@@ -150,7 +150,7 @@ main {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
-  border-right: 4px solid var(--black);
+  border-right: 3px solid var(--black);
   font-size: 40px;
   line-height: 1.1;
   color: var(--black);
@@ -172,7 +172,7 @@ main {
 }
 
 .flex {
-  border: 5px solid var(--black);
+  border: 3px solid var(--black);
   color: var(--white);
   min-height: 150px;
   max-height: 150px;
@@ -206,6 +206,31 @@ padding: 8px 10px;
 font-size: 25px;
 }
 
+.contact address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+.contact address a {
+  color: var(--white);
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-style: normal;
+  background-size: 100%;
+  background-position: bottom;
+  display: inline-block;
+}
+
+.contact address a:hover {
+  background-size: 100% 88%;
+  color: var(--black);
+}
+
 /* IMAGES */
 
 .jhmedia {
@@ -213,7 +238,7 @@ font-size: 25px;
 }
 
 .run-buddy {
-  background-image: url("../images/run buddy.jpg");
+  background-image: url("../images/run-buddy.jpg");
 }
 
 .robot {
@@ -224,8 +249,8 @@ font-size: 25px;
   background-image: url("../images/photography.jpg");
 }
 
-.upcoming {
-  background-image: url("../images/02-portfolio-4.jpg");
+.horiseon {
+  background-image: url("../images/horiseon.jpg");
 }
 
 
@@ -277,7 +302,7 @@ font-size: 25px;
     text-align: center;
   }
 
-  
+
 
 
 
